@@ -14,6 +14,8 @@
 		CF6821031E6EE17600A0296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6821011E6EE17600A0296E /* LaunchScreen.storyboard */; };
 		CF68210E1E6EE17600A0296E /* wizardWithDotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68210D1E6EE17600A0296E /* wizardWithDotsTests.swift */; };
 		CF6821191E6EE17600A0296E /* wizardWithDotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6821181E6EE17600A0296E /* wizardWithDotsUITests.swift */; };
+		CF6821271E6EE1DF00A0296E /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6821261E6EE1DF00A0296E /* TutorialPageViewController.swift */; };
+		CF6821291E6EE74400A0296E /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6821281E6EE74400A0296E /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CF6821141E6EE17600A0296E /* wizardWithDotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wizardWithDotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6821181E6EE17600A0296E /* wizardWithDotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wizardWithDotsUITests.swift; sourceTree = "<group>"; };
 		CF68211A1E6EE17600A0296E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6821261E6EE1DF00A0296E /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		CF6821281E6EE74400A0296E /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CF6820FF1E6EE17600A0296E /* Assets.xcassets */,
 				CF6821011E6EE17600A0296E /* LaunchScreen.storyboard */,
 				CF6821041E6EE17600A0296E /* Info.plist */,
+				CF6821261E6EE1DF00A0296E /* TutorialPageViewController.swift */,
+				CF6821281E6EE74400A0296E /* TutorialViewController.swift */,
 			);
 			path = wizardWithDots;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				CF6820FB1E6EE17600A0296E /* ViewController.swift in Sources */,
 				CF6820F91E6EE17600A0296E /* AppDelegate.swift in Sources */,
+				CF6821291E6EE74400A0296E /* TutorialViewController.swift in Sources */,
+				CF6821271E6EE1DF00A0296E /* TutorialPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
